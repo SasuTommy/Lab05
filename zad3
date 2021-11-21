@@ -1,0 +1,31 @@
+package javaapplication2;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import java.lang.Math;
+import java.util.Exception;
+
+
+public class JavaApplication2{
+       void WypiszDlugosc(String napis){
+        System.out.println(napis.length());
+    } 
+    public static void main(String[] args) {
+       
+        JavaApplication2 ob = new JavaApplication2();
+     //pkt 2
+        try{
+        ob.WypiszDlugosc("Ala");
+        ob.WypiszDlugosc(null);  
+}
+      catch(NullPointerException e){
+        //  e.printStackTrace(System.out);
+        //pkt5 e.fillInStackTrace();
+        // pkt 4 "tak
+        //pkt3 throw e;
+        //pkt6
+      throw new Exception(e);//pkt7
+        }
+      
+      
+    }
+}
