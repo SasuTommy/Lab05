@@ -1,0 +1,12 @@
+package javaapplication1;
+
+public class Matemtyka {
+    public int dodaj(int a,int b){
+    System.out.println("Metoda zwraca int, posiada 2 parametry int: "+a+","+b);
+        return a+b;
+    }
+    public double dodaj(double a, double b, double c){
+    System.out.println("Metoda zwraca doube, posiada 3 parametry int: "+a+","+b+","+c);
+    return a+b+c;
+    }
+}
