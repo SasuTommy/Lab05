@@ -1,0 +1,12 @@
+package javaapplication1;
+
+
+public class JavaApplication1 extends Matemtyka{
+
+    public static void main(String[] args) {
+        Matemtyka obj1 = new Matemtyka();
+        System.out.println(obj1.dodaj(3, 5));
+        System.out.println(obj1.dodaj(3.0,4.0,5.0));
+    }
+    
+}
